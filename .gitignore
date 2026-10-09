@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# 本地向量库 / 运行时数据（含个人数据，不上传）
+.chromadb/
+logs/
+
+# 抖音频道个人状态与生成的报告
+douyin/state.json
+douyin/report_*.md
+douyin/_test_*.py
+
+# 其它
+.DS_Store
+*.db
